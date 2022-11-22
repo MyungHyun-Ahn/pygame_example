@@ -91,6 +91,9 @@ sort()   : 리스트 자체를 정렬하는 메서드
 * draw.rect    : 직사각형
 * draw.circle  : 원
 * draw.ellipse : 타원
+* draw.line
+* draw.lines
+* draw.polygon : 여러점을 이어 도형을 그림
 """
 
 
