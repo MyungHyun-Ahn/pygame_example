@@ -54,3 +54,43 @@ sort()   : 리스트 자체를 정렬하는 메서드
 "온도 : {temp}, 습도 : {hum}".format(temp=29, hum=66.66)
 출력 : '온도 : 29, 습도 : 66.66'
 """
+
+
+"""
+# 시험 나옴
+* 람다함수
+* sorted, lambda 연결
+* 리스트 내포 표기
+* 내포 표기 안에 내포 표기 중첩 가능
+"""
+
+"""
+4장 PyGame
+파이썬 게임을 만들기 위한 라이브러리
+다양한 OS 지원 (윈도우, 맥, 리눅스)
+
+* 윈도 표시
+
+* 메인 루프 : 큐 방식으로 진행
+* 타이머 : 일반적으로 메인루프를 전속력으로 진행하기 때문에 속도를 제한
+
+* Rect 클래스
+* Rect 객체 메서드
+1. copy() : 복사
+2. move(x, y) : 이동한 Rect를 반환 자신은 이동 X
+3. move_ip(x, y) : 자신을 이동
+4. inflate(x, y) : 현재 값에서 (x, y)만큼 크기를 변경한 Rect를 반환
+5. inflate_ip(x, y) : 자신의 사이즈를 변경
+6. union(Rect) : 자신과 인수 Rect를 포함하는 최소 Rect 반환
+7. contains(Rect) : 포함 여부 체크
+8. collidepoint(x, y) : 포함 여부 체크
+
+* Rect 객체와 draw.rect는 다름
+
+* draw 클래스
+* draw.rect    : 직사각형
+* draw.circle  : 원
+* draw.ellipse : 타원
+"""
+
+
